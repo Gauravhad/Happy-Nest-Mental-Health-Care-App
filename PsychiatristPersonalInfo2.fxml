@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="1000.0" style="-fx-background-color: caf0f8;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="600.0" layoutY="34.0" stroke="WHITE" strokeType="INSIDE" style="-fx-arc-height: 100; -fx-arc-width: 100;" width="930.0" AnchorPane.bottomAnchor="33.0" AnchorPane.leftAnchor="35.0" AnchorPane.rightAnchor="70.0" AnchorPane.topAnchor="34.0" />
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="46.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Happy_Nest_Logo.png" />
+         </image>
+      </ImageView>
+      <Text fill="#63383f" layoutX="126.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HAPPY NEST">
+         <font>
+            <Font name="Candara Light" size="36.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#caf0f8" height="333.0" layoutX="106.0" layoutY="141.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-width: 50; -fx-arc-height: 50;" width="257.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#caf0f8" height="442.0" layoutX="392.0" layoutY="129.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" style="-fx-arc-width: 50; -fx-arc-height: 50;" width="499.0" />
+      <Text layoutX="554.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SPECIALITIES" wrappingWidth="172.1593017578125">
+         <font>
+            <Font name="Felix Titling" size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="589.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Psychiatrist">
+         <font>
+            <Font name="Swiss 721 Light BT" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="GREY" layoutX="500.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rajiv Gandhi University of Health Sciences, Bangalore">
+         <font>
+            <Font name="Swiss 721 Light BT" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="555.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EDUCATION" wrappingWidth="172.1593017578125">
+         <font>
+            <Font name="Felix Titling" size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="610.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MBBS" textAlignment="CENTER">
+         <font>
+            <Font name="Swiss 721 Light BT" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="590.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MD (Psychiatry)">
+         <font>
+            <Font name="Swiss 721 Light BT" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="GREY" layoutX="450.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rajiv Gandhi University of Health Sciences,Bangalore, India, 2016">
+         <font>
+            <Font name="Swiss 721 Light BT" size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="554.0" layoutY="390.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ABOUT ME" wrappingWidth="172.1593017578125">
+         <font>
+            <Font name="Felix Titling" size="28.0" />
+         </font>
+      </Text>
+      <Text layoutX="442.0" layoutY="416.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dr. Charan Teja Koganti is a Psychiatrist in Kondapur, Hyderabad and has an experience of 9 years in this field. Dr. Charan Teja Koganti practices at KIMS Hospital in Kondapur, Hyderabad." textAlignment="CENTER" wrappingWidth="398.8218994140625">
+         <font>
+            <Font name="Swiss 721 Light BT" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="130.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DR. CHARAN TEJ" wrappingWidth="234.55926513671875">
+         <font>
+            <Font name="Felix Titling" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="160.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MBBS MD (Psychiatry)">
+         <font>
+            <Font name="Swiss 721 Light BT" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="GREY" layoutX="156.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Speaks: English, Hindi">
+         <font>
+            <Font name="Swiss 721 Light BT" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="129.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rs. 249">
+         <font>
+            <Font name="Swiss 721 Light BT" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="GREY" layoutX="192.0" layoutY="375.0" strokeType="OUTSIDE" strokeWidth="0.0" text="For First Consultation">
+         <font>
+            <Font name="Swiss 721 Light BT" size="14.0" />
+         </font>
+      </Text>
+      <Button layoutX="182.0" layoutY="391.0" mnemonicParsing="false" onAction="#switchToConsultPsychiatrists" prefHeight="26.0" prefWidth="106.0" style="-fx-background-color: BLACK;" text="KNOW LESS" textFill="WHITE" />
+      <Button layoutX="182.0" layoutY="429.0" mnemonicParsing="false" onAction="#switchToLoginPage" prefHeight="26.0" prefWidth="106.0" style="-fx-background-color: BLACK;" text="CONSULT NOW" textFill="WHITE" />
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="194.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/PicsArt_11-03-02.28.36.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="1000.0" style="-fx-background-color: ADE8F4;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+<children>
+<Rectangle arcHeight="100.0" arcWidth="100.0" fill="#fffcfc" height="600.0" layoutX="35.0" layoutY="35.0" stroke="#0000000f" strokeType="INSIDE" width="930.0" />
+<ImageView fitHeight="60.0" fitWidth="60.0" layoutX="46.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+<image>
+<Image url="@Happy_Nest_Logo.png" />
+</image>
+</ImageView>
+<Label layoutX="123.0" layoutY="54.0" text="HAPPY NEST" textFill="#63383f">
+<font>
+<Font name="Candara Light" size="36.0" />
+</font>
+</Label>
+<Rectangle arcHeight="5.0" arcWidth="5.0" fill="#caf0f8" height="400.0" layoutX="80.0" layoutY="191.0" stroke="#00000007" strokeType="INSIDE" width="250.0" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="80.0" />
+<Label alignment="CENTER" layoutX="123.0" layoutY="125.0" prefHeight="41.0" prefWidth="755.0" style="-fx-background-color: CAF0F8;" text="Consult Top Psychiatrists Online">
+<font>
+<Font name="Georgia" size="36.0" />
+</font>
+</Label>
+<Rectangle arcHeight="5.0" arcWidth="5.0" fill="#caf0f8" height="400.0" layoutX="377.0" layoutY="187.0" stroke="#00000007" strokeType="INSIDE" width="250.0" />
+<Rectangle arcHeight="5.0" arcWidth="5.0" fill="#caf0f8" height="400.0" layoutX="670.0" layoutY="187.0" stroke="#00000002" strokeType="INSIDE" width="250.0" AnchorPane.bottomAnchor="80.0" AnchorPane.rightAnchor="80.0" />
+<Button layoutX="155.0" layoutY="491.0" mnemonicParsing="false" onAction="#switchToPsychiatristsPersonalInfo1" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: BFBDDE;" text="Know More" textFill="#000000f5" />
+<Button layoutX="155.0" layoutY="535.0" mnemonicParsing="false" onAction="#switchToLoginPage" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: E2CDC4;" text="Consult now" />
+<Button layoutX="745.0" layoutY="535.0" mnemonicParsing="false" onAction="#switchToLoginPage" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: E2CDC4;" text="Consult now" />
+<Button layoutX="745.0" layoutY="491.0" mnemonicParsing="false" onAction="#switchToPsychiatristPersonalInfo2" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: BFBDDE;" text="Know More" />
+<Button layoutX="450.0" layoutY="491.0" mnemonicParsing="false" onAction="#switchToPsychiatristPersonalInfo3" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: BFBDDE;" text="Know More" />
+<Button layoutX="450.0" layoutY="535.0" mnemonicParsing="false" onAction="#switchToLoginPage" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: E2CDC4;" text="Consult now" />
+<Label layoutX="111.0" layoutY="445.0" text="Rs. 449">
+<font>
+<Font name="System Bold" size="18.0" />
+</font>
+</Label>
+<Label layoutX="116.0" layoutY="409.0" text="Speaks:" textFill="#575656">
+<font>
+<Font size="18.0" />
+</font>
+</Label>
+<Label layoutX="155.0" layoutY="374.0" text="MBBS MBA" textFill="#575656">
+<font>
+<Font size="18.0" />
+</font>
+</Label>
+<Label layoutX="178.0" layoutY="449.0" text="For first consultation" textFill="#575656">
+<font>
+<Font size="14.0" />
+</font>
+</Label>
+<Label layoutX="132.0" layoutY="331.0" text="Dr. Harsha GT">
+<font>
+<Font size="24.0" />
+</font>
+</Label>
+<Label layoutX="174.0" layoutY="409.0" text=" English, Hindi">
+<font>
+<Font name="System Bold" size="18.0" />
+</font>
+</Label>
+<Label layoutX="408.0" layoutY="445.0" text="Rs. 249">
+<font>
+<Font name="System Bold" size="18.0" />
+</font>
+</Label>
+<Label layoutX="472.0" layoutY="409.0" text=" English, Hindi">
+<font>
+<Font name="System Bold" size="18.0" />
+</font>
+</Label>
+<Label layoutX="475.0" layoutY="449.0" text="For first consultation" textFill="#575656">
+<font>
+<Font size="14.0" />
+</font>
+</Label>
+<Label layoutX="405.0" layoutY="384.0" prefHeight="27.0" prefWidth="191.0" text="DNB, MRCP (Psychiatry)" textAlignment="CENTER" textFill="#575656" wrapText="true">
+<font>
+<Font size="18.0" />
+</font>
+</Label>
+<Label layoutX="409.0" layoutY="409.0" text="Speaks:" textFill="#575656">
+<font>
+<Font size="18.0" />
+</font>
+</Label>
+<Label layoutX="413.0" layoutY="331.0" text="Dr. Krishna Patel">
+<font>
+<Font size="24.0" />
+</font>
+</Label>
+<Label layoutX="769.0" layoutY="449.0" text="For first consultation" textFill="#575656">
+<font>
+<Font size="14.0" />
+</font>
+</Label>
+<Label layoutX="755.0" layoutY="374.0" text="MBBS MD" textFill="#575656">
+<font>
+<Font size="18.0" />
+</font>
+</Label>
+<Label layoutX="703.0" layoutY="409.0" text="Speaks:" textFill="#575656">
+<font>
+<Font size="18.0" />
+</font>
+</Label>
+<Label layoutX="702.0" layoutY="446.0" text="Rs. 549">
+<font>
+<Font name="System Bold" size="18.0" />
+</font>
+</Label>
+<Label layoutX="759.0" layoutY="409.0" text=" English, Telugu">
+<font>
+<Font name="System Bold" size="18.0" />
+</font>
+</Label>
+<Label layoutX="721.0" layoutY="331.0" text="Dr. Charan Tej">
+<font>
+<Font size="24.0" />
+</font>
+</Label>
+<ImageView fitHeight="120.0" fitWidth="120.0" layoutX="145.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+<image>
+<Image url="@PicsArt_11-03-02.26.42.png" />
+</image>
+</ImageView>
+<ImageView fitHeight="120.0" fitWidth="120.0" layoutX="440.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+<image>
+<Image url="@PicsArt_11-03-02.29.18.png" />
+</image>
+</ImageView>
+<ImageView fitHeight="120.0" fitWidth="120.0" layoutX="735.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+<image>
+<Image url="@PicsArt_11-03-02.28.36.png" />
+</image>
+</ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="8.0" layoutY="620.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MicrosoftTeams-image%20(16).png" />
+         </image>
+      </ImageView>
+      <Button layoutX="2.0" layoutY="613.0" mnemonicParsing="false" onAction="#switchToMental1stPage" opacity="0.0" prefHeight="50.0" prefWidth="52.0" text="Button" />
+      <Label layoutX="410.0" layoutY="360.0" prefHeight="27.0" prefWidth="191.0" text="MBBS, MD (Medicine), " textAlignment="CENTER" textFill="#575656" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+</children>
+</AnchorPane>

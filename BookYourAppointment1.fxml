@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="1000.0" style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+<children>
+<ImageView fitHeight="60.0" fitWidth="60.0" layoutX="35.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+<image>
+<Image url="@MicrosoftTeams-image%20(2).png" />
+</image>
+</ImageView>
+<Text fill="#63383f" layoutX="105.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HAPPY NEST">
+<font>
+<Font name="Candara Light" size="36.0" />
+</font>
+</Text>
+<ImageView fitHeight="602.0" fitWidth="1019.0" layoutX="-10.0" layoutY="33.0" opacity="0.21" pickOnBounds="true">
+<image>
+<Image url="@WhatsApp%20Image%202021-11-10%20at%208.41.23%20PM.jpeg" />
+</image>
+</ImageView>
+<Text layoutX="228.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Your Appointment" wrappingWidth="550.249267578125">
+<font>
+<Font name="Palatino Linotype" size="48.0" />
+</font>
+</Text>
+<Text layoutX="316.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Whom would you like to book for?">
+<font>
+<Font name="Georgia" size="24.0" />
+</font>
+</Text>
+<Rectangle arcHeight="5.0" arcWidth="5.0" fill="#94fff2" height="43.0" layoutX="274.0" layoutY="231.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-height: 25; -fx-arc-width: 25;" width="200.0" />
+<Rectangle arcHeight="5.0" arcWidth="5.0" fill="#94fff2" height="43.0" layoutX="500.0" layoutY="230.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-height: 25; -fx-arc-width: 25;" width="200.0" />
+<Text layoutX="253.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What mode of consultation would you prefer? ">
+<font>
+<Font name="Georgia" size="24.0" />
+</font>
+</Text>
+<Rectangle arcHeight="5.0" arcWidth="5.0" fill="#94fff2" height="43.0" layoutX="274.0" layoutY="334.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-height: 25; -fx-arc-width: 25;" width="200.0" />
+<Rectangle arcHeight="5.0" arcWidth="5.0" fill="#94fff2" height="43.0" layoutX="500.0" layoutY="335.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-height: 25; -fx-arc-width: 25;" width="200.0" />
+<Rectangle arcHeight="5.0" arcWidth="5.0" fill="#94fff2" height="43.0" layoutX="274.0" layoutY="471.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-height: 25; -fx-arc-width: 25;" width="200.0" />
+<Rectangle arcHeight="5.0" arcWidth="5.0" fill="#94fff2" height="43.0" layoutX="500.0" layoutY="471.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-height: 25; -fx-arc-width: 25;" width="200.0" />
+<Text layoutX="357.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Myself">
+<font>
+<Font name="Constantia" size="24.0" />
+</font>
+</Text>
+<ImageView fitHeight="36.0" fitWidth="47.0" layoutX="295.0" layoutY="338.0" pickOnBounds="true">
+<image>
+<Image url="@MicrosoftTeams-image%20(13).png" />
+</image>
+</ImageView>
+<ImageView fitHeight="36.0" fitWidth="47.0" layoutX="516.0" layoutY="339.0" pickOnBounds="true">
+<image>
+<Image url="@MicrosoftTeams-image%20(12).png" />
+</image>
+</ImageView>
+<ImageView fitHeight="32.0" fitWidth="30.0" layoutX="280.0" layoutY="477.0" pickOnBounds="true">
+<image>
+<Image url="@MicrosoftTeams-image%20(15).png" />
+</image>
+</ImageView>
+<DatePicker layoutX="523.0" layoutY="477.0" prefHeight="32.0" prefWidth="153.0" />
+<Text layoutX="361.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Video">
+<font>
+<Font name="Constantia" size="24.0" />
+</font>
+</Text>
+<Text layoutX="588.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Audio">
+<font>
+<Font name="Constantia" size="24.0" />
+</font>
+</Text>
+<Text layoutX="244.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Would you like to book an appointment today or ">
+<font>
+<Font name="Georgia" size="24.0" />
+</font>
+</Text>
+<Text layoutX="399.0" layoutY="453.0" strokeType="OUTSIDE" strokeWidth="0.0" text="at another timing?">
+<font>
+<Font name="Georgia" size="24.0" />
+</font>
+</Text>
+<Rectangle arcHeight="5.0" arcWidth="5.0" height="43.0" layoutX="357.0" layoutY="541.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-height: 25; -fx-arc-width: 25;" width="275.0" />
+<Text fill="WHITE" layoutX="375.0" layoutY="572.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONFIRM BOOKING" wrappingWidth="282.205078125">
+<font>
+<Font size="26.0" />
+</font>
+</Text>
+<Rectangle arcHeight="5.0" arcWidth="5.0" height="36.0" layoutX="-9.0" stroke="BLACK" strokeType="INSIDE" width="1019.0" />
+<Rectangle arcHeight="5.0" arcWidth="5.0" height="36.0" layoutX="-9.0" layoutY="631.0" stroke="BLACK" strokeType="INSIDE" width="1019.0" />
+<ImageView fitHeight="36.0" fitWidth="47.0" layoutX="295.0" layoutY="233.0" pickOnBounds="true">
+<image>
+<Image url="@MicrosoftTeams-image%20(14).png" />
+</image>
+</ImageView>
+<Text layoutX="524.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Acquaintances">
+<font>
+<Font name="Constantia" size="24.0" />
+</font>
+</Text>
+<Button layoutX="274.0" layoutY="335.0" mnemonicParsing="false" opacity="0.0" prefHeight="43.0" prefWidth="200.0" text="Button" />
+<Button layoutX="500.0" layoutY="335.0" mnemonicParsing="false" opacity="0.0" prefHeight="43.0" prefWidth="200.0" text="Button" />
+<Button layoutX="500.0" layoutY="230.0" mnemonicParsing="false" opacity="0.0" prefHeight="43.0" prefWidth="200.0" text="Button" />
+<Button layoutX="274.0" layoutY="231.0" mnemonicParsing="false" opacity="0.0" prefHeight="43.0" prefWidth="200.0" text="Button" />
+<Button layoutX="357.0" layoutY="539.0" mnemonicParsing="false" onAction="#switchToUserProfile" opacity="0.0" prefHeight="48.0" prefWidth="275.0" text="Button" />
+<Text layoutX="315.0" layoutY="499.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Waiting Room">
+<font>
+<Font name="Constantia" size="24.0" />
+</font>
+</Text>
+<Button layoutX="274.0" layoutY="471.0" mnemonicParsing="false" opacity="0.0" prefHeight="43.0" prefWidth="200.0" text="Button" />
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutY="632.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/WhatsApp%20Image%202021-11-11%20at%201.15.23%20AM.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutY="631.0" mnemonicParsing="false" onAction="#switchToLoginPage" opacity="0.0" prefHeight="40.0" prefWidth="52.0" text="Button" />
+</children>
+</AnchorPane>

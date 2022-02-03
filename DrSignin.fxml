@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <ImageView fitHeight="667.0" fitWidth="1000.0" opacity="0.3" pickOnBounds="true">
+         <image>
+            <Image url="@psychologist-woman-man-patient-psychology-therapy-session-treatment-stress-addictions-mental-problems-psychotherapy-practice-psychological-help-psychiatrist-consulting_458444-165.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="18.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MicrosoftTeams-image%20(2).png" />
+         </image>
+      </ImageView>
+      <Text fill="#63383f" layoutX="100.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HAPPY NEST">
+         <font>
+            <Font name="Candara Light" size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="40.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAME:">
+         <font>
+            <Font name="Calisto MT" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="40.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONTACT:">
+         <font>
+            <Font name="Calisto MT" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="40.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DOB:">
+         <font>
+            <Font name="Calisto MT" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="40.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SPECIALTIES:">
+         <font>
+            <Font name="Calisto MT" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="40.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EDUCATION:">
+         <font>
+            <Font name="Calisto MT" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="40.0" layoutY="600.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EMAIL-ID:">
+         <font>
+            <Font name="Calisto MT" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="40.0" layoutY="540.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LANGUAGES:">
+         <font>
+            <Font name="Calisto MT" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="480.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PHOTOGRAPH:">
+         <font>
+            <Font name="Calisto MT" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="474.0" layoutY="200.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ABOUT YOURSELF:" wrappingWidth="216.7827758789063">
+         <font>
+            <Font name="Calisto MT" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="480.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASSWORD:">
+         <font>
+            <Font name="Calisto MT" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="480.0" layoutY="435.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GENDER:">
+         <font>
+            <Font name="Calisto MT" size="24.0" />
+         </font>
+      </Text>
+      <TextArea editable="false" layoutX="250.0" layoutY="328.0" prefHeight="74.0" prefWidth="167.0">
+         <font>
+            <Font name="Calisto MT" size="18.0" />
+         </font>
+      </TextArea>
+      <TextField layoutX="250.0" layoutY="99.0">
+         <font>
+            <Font name="Calisto MT" size="12.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="250.0" layoutY="160.0">
+         <font>
+            <Font name="Calisto MT" size="12.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="250.0" layoutY="280.0">
+         <font>
+            <Font name="Calisto MT" size="12.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="250.0" layoutY="519.0">
+         <font>
+            <Font name="Calisto MT" size="12.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="250.0" layoutY="580.0">
+         <font>
+            <Font name="Calisto MT" size="12.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="250.0" layoutY="440.0">
+         <font>
+            <Font name="Calisto MT" size="12.0" />
+         </font>
+      </TextField>
+      <DatePicker layoutX="250.0" layoutY="219.0" prefHeight="26.0" prefWidth="167.0" />
+      <PasswordField layoutX="674.0" layoutY="359.0" />
+      <RadioButton layoutX="670.0" layoutY="413.0" mnemonicParsing="false" text="MALE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="802.0" layoutY="413.0" mnemonicParsing="false" text="FEMALE">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="670.0" layoutY="463.0" mnemonicParsing="false" text="OTHERS">
+         <font>
+            <Font name="Calisto MT" size="20.0" />
+         </font>
+      </RadioButton>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="36.0" layoutX="581.0" layoutY="532.0" stroke="BLACK" strokeType="INSIDE" width="167.0" />
+      <Text fill="WHITE" layoutX="605.0" layoutY="560.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SIGN IN">
+         <font>
+            <Font name="Calisto MT" size="30.0" />
+         </font>
+      </Text>
+      <Text layoutX="486.0" layoutY="596.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALREADY HAVE AN ACCOUNT?">
+         <font>
+            <Font name="Calisto MT" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#00a6ff" layoutX="719.0" layoutY="596.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CLICK HERE TO LOGIN">
+         <font>
+            <Font name="Calisto MT" size="14.0" />
+         </font>
+      </Text>
+      <Button layoutX="714.0" layoutY="578.0" mnemonicParsing="false" onAction="#switchToDoctorsLoginPage" opacity="0.0" prefHeight="26.0" prefWidth="175.0" text="Button" />
+      <Text fill="RED" layoutX="618.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(UPLOAD THE REQUIRED DOCUMENT IN THE ABOVE LINK)">
+         <font>
+            <Font name="Calisto MT Bold" size="12.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="36.0" layoutX="674.0" layoutY="89.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="284.0" />
+      <Text layoutX="688.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="https://drive.google.com/drive/folders/16meTPH1QOGoc95ziKMju41uL8_wuxA-6?usp=sharing" wrappingWidth="256.177001953125">
+         <font>
+            <Font name="Calisto MT" size="12.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="36.0" layoutX="674.0" layoutY="280.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="284.0" />
+      <Text fill="RED" layoutX="618.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(UPLOAD THE REQUIRED DOCUMENT IN THE ABOVE LINK)">
+         <font>
+            <Font name="Calisto MT Bold" size="12.0" />
+         </font>
+      </Text>
+      <TextArea editable="false" layoutX="674.0" layoutY="173.0" prefHeight="92.0" prefWidth="284.0">
+         <font>
+            <Font name="Calisto MT" size="18.0" />
+         </font>
+      </TextArea>
+      <Text layoutX="688.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="https://drive.google.com/drive/folders/1zHt_7aFZwZV4jvkdvx82P1xirA7XUYlD?usp=sharing" wrappingWidth="256.177001953125">
+         <font>
+            <Font name="Calisto MT" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="480.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LICENSE:">
+         <font>
+            <Font name="Calisto MT" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="40.0" layoutY="440.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONSULTATION FEES:" wrappingWidth="216.78277587890625">
+         <font>
+            <Font name="Calisto MT" size="24.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="944.0" layoutY="18.0" pickOnBounds="true">
+         <image>
+            <Image url="@60817.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="938.0" layoutY="21.0" mnemonicParsing="false" onAction="#switchToMental1stPage" opacity="0.0" prefHeight="35.0" prefWidth="46.0" text="Button" />
+      <Button layoutX="580.0" layoutY="537.0" mnemonicParsing="false" onAction="#switchToDrProfile2" opacity="0.0" prefHeight="13.0" prefWidth="167.0" text="Button" />
+   </children>
+</AnchorPane>

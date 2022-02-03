@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="1000.0" style="-fx-background-color: ADE8F4;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UserProfile2Controller">
+   <children>
+      <SplitPane dividerPositions="0.6494401378122309" layoutX="34.0" layoutY="28.0" prefHeight="616.0" prefWidth="930.0" style="-fx-background-color: white;" AnchorPane.leftAnchor="34.0" AnchorPane.rightAnchor="34.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" style="-fx-background-color: white;" />
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" style="-fx-background-color: white;">
+               <children>
+                  <Text layoutX="51.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Appointment" AnchorPane.leftAnchor="51.0" AnchorPane.rightAnchor="39.14335937499999">
+                     <font>
+                        <Font name="Baskerville Old Face" size="30.0" />
+                     </font>
+                  </Text>
+                  <DatePicker fx:id="date" layoutX="86.0" layoutY="367.0" prefHeight="26.0" prefWidth="162.0" promptText="Choose a Date" />
+                  <Button fx:id="CB" layoutX="92.0" layoutY="499.0" mnemonicParsing="false" onAction="#switchToMental1stPage" prefHeight="35.0" prefWidth="162.0" style="-fx-background-color: black;" text="Confirm Booking" textFill="WHITE">
+                     <font>
+                        <Font name="Baskerville Old Face" size="18.0" />
+                     </font>
+                     <effect>
+                        <InnerShadow>
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </InnerShadow>
+                     </effect>
+                  </Button>
+                  <Text layoutX="133.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date">
+                     <font>
+                        <Font name="Baskerville Old Face" size="30.0" />
+                     </font>
+                  </Text>
+                  <RadioButton fx:id="rpsycho" layoutX="6.0" layoutY="189.0" mnemonicParsing="false" onAction="#check1" text="PSYCHOLOGIST">
+                     <font>
+                        <Font name="Calisto MT" size="16.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton fx:id="rpsychi" layoutX="173.0" layoutY="189.0" mnemonicParsing="false" onAction="#check2" text="PSYCHIATRIST">
+                     <font>
+                        <Font name="Calisto MT" size="16.0" />
+                     </font>
+                  </RadioButton>
+                  <ComboBox fx:id="COM" layoutX="66.0" layoutY="256.0" prefHeight="26.0" prefWidth="211.0" style="-fx-background-color: ADE8F4;">
+                     <effect>
+                        <InnerShadow>
+                           <color>
+                              <Color red="0.5065107345581055" green="0.5931903719902039" blue="0.6105263233184814" />
+                           </color>
+                        </InnerShadow>
+                     </effect>
+                  </ComboBox>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="46.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Happy_Nest_Logo.png" />
+         </image>
+      </ImageView>
+      <Text fill="#63383f" layoutX="116.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HAPPY NEST">
+         <font>
+            <Font name="Candara Light" size="36.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="913.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@60817.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="907.0" layoutY="33.0" mnemonicParsing="false" onAction="#Mental1stPage" opacity="0.0" prefHeight="53.0" prefWidth="51.0" text="HOME" />
+      <ImageView fitHeight="584.0" fitWidth="600.0" layoutX="34.0" layoutY="110.0" opacity="0.14" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Downloads/images%20(2).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="294.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@WhatsApp%20Image%202021-11-19%20at%201.04.03%20AM.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="60.0" layoutY="230.0" text="Name:" AnchorPane.leftAnchor="59.0" AnchorPane.topAnchor="226.0">
+         <font>
+            <Font name="Baskerville Old Face" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="434.0" text="Gender:" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="434.0">
+         <font>
+            <Font name="Baskerville Old Face" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="387.0" text="Age:" AnchorPane.leftAnchor="51.0" AnchorPane.topAnchor="387.0">
+         <font>
+            <Font name="Baskerville Old Face" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="280.0" text="EmailID:" AnchorPane.leftAnchor="54.0" AnchorPane.topAnchor="280.0">
+         <font>
+            <Font name="Baskerville Old Face" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="333.0" text="Contact:" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="333.0">
+         <font>
+            <Font name="Baskerville Old Face" size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="rnameLabel" layoutX="200.0" layoutY="231.0" prefHeight="27.0" prefWidth="414.0" AnchorPane.leftAnchor="175.0" AnchorPane.topAnchor="231.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="remailLabel" layoutX="175.0" layoutY="283.0" prefHeight="27.0" prefWidth="439.0" AnchorPane.leftAnchor="180.0" AnchorPane.topAnchor="283.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <Label fx:id="rcontactLabel" layoutX="180.0" layoutY="336.0" prefHeight="27.0" prefWidth="403.0" AnchorPane.leftAnchor="180.0" AnchorPane.topAnchor="336.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <Label fx:id="rageLabel" layoutX="175.0" layoutY="390.0" prefHeight="20.0" prefWidth="200.0" AnchorPane.leftAnchor="180.0" AnchorPane.topAnchor="390.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <Label fx:id="rgenderLabel" layoutX="175.0" layoutY="437.0" prefHeight="27.0" prefWidth="258.0" AnchorPane.leftAnchor="182.0" AnchorPane.topAnchor="437.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
